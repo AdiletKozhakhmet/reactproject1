@@ -1,0 +1,25 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #20222F;
+    color: white;
+}
+.left_part {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    margin-left: 20px;
+    justify-content: center;
+}
+.right_part {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
